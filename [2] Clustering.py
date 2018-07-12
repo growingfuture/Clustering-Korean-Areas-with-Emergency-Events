@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 23 14:29:44 2017
-
-@author: KEJ
-"""
 
 import pandas as pd
 import numpy as np
@@ -157,9 +152,7 @@ plt.scatter(check_table_cls[check_table_cls['clust']==0][[3]],
             c=cls_label)
 
 # 결과 테이블 csv파일로 저장
-output_dir = r'C:\Users\KEJ\Desktop\ambulance'
+output_dir = r'D:/ambulance_project'
 check_table_cls.to_csv(output_dir + '\\five_cls_totalval.csv',index = False)
-
-
 
 
