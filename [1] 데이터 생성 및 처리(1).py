@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 23 03:45:14 2017
-
-@author: KEJ
-"""
 
 # ==================== [1] data read ==================== #
 
@@ -178,9 +173,6 @@ emd_df3[case_place] = makeRate(emd_df2[case_place])
 emd_df3[case_category] = makeRate(emd_df2[case_category])
 emd_df3[center] = makeRate(emd_df2[center])
 
-# ========================인구수 추가=================== #
-
-# emd_df3.to_csv(r'C:\Users\KEJ\Desktop\ambulance\ambul_df_emd_rate.csv',index = False)
 
 
 
